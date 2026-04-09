@@ -1,3 +1,4 @@
+import sys
 # declara variáveis
 x=3
 y=3.142128
@@ -9,6 +10,12 @@ print(type(x))
 print(type(y))
 print(type(w))
 print(type(z)) 
+
+# tamanho da variável em bytes
+print(sys.getsizeof(x))
+print(sys.getsizeof(y))
+print(sys.getsizeof(w))
+print(sys.getsizeof(z))
 
 # escreve, na tela, os endereços de memória que as variáveis estão alocadas
 print(id(x))
