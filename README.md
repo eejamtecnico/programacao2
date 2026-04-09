@@ -40,7 +40,7 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
     </tr>
     <tr>
         <td>09/04</td>
-        <td><td>Linguagem python: variáveis primitivas, tipos, endereços, tamanho e operações.</td></td>
+        <td>Linguagem python: variáveis primitivas, tipos, endereços, tamanho e operações.</td>
     </tr>
     <tr>
         <td>16/04</td>
