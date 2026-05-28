@@ -1,26 +1,28 @@
-a = 10
-b = 10.5
-c = "Python"
-d = True
+#inicialização de variáveis
+nota1 = 8.5
+nota2 = 9
+nota3 = 4
+nota4 = 1
+qdeDeNotas = 4
+mediaParaAprovacao = 6
 
-print('Valor de a:', a)
-print('Tipo de a:', type(a))
-print('Endereço de a:', id(a))
-print()
-print('Valor de b:', b)
-print('Tipo de b:', type(b))
-print('Endereço de b:', id(b))
-print()
-print('Valor de c:', c)
-print('Tipo de c:', type(c))
-print('Endereço de c:', id(c))
-print()
-print('Valor de d:', d)
-print('Tipo de d:', type(d))
-print('Endereço de d:', id(d))
+#operações com variáveis
+media = (nota1+nota2+nota3+nota4)/qdeDeNotas
+status = media >= mediaParaAprovacao
 
-#Qual variável armazena um número inteiro?
-#Qual variável armazena texto?
-#O que a função type() retorna?
-#O que você percebe sobre os valores de id()?
-#Duas variáveis com o mesmo valor podem ter o mesmo endereço?
+#imprimir conteúdo de variáveis
+print(media)
+print(status)
+
+#imprimir mensagens personalizadas
+print("Uma mensagem personalizada")
+
+#imprimir uma mensagem personalizada com variáveis dentro dela usando f-string
+print(f"a média do aluno é {media} e o status de aprovação é {status}")
+
+#entrada de dados e casting
+umaVariavel = int(input("Digite um numero "))
+
+#faz uma operação com a variável e imprime o resultado
+novaVariavel = umaVariavel + 10
+print(novaVariavel)

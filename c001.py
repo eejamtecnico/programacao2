@@ -1,4 +1,4 @@
-import sys
+import sys #biblioteca usada para descobrir o tamanho das variáveis
 
 # inicializa variáveis (nome e valor)
 x=3
