@@ -10,6 +10,7 @@ mediaParaAprovacao = 6
 media = (nota1+nota2+nota3+nota4)/qdeDeNotas
 status = media >= mediaParaAprovacao
 
+#saída de dados
 #imprimir conteúdo de variáveis
 print(media)
 print(status)
@@ -20,9 +21,8 @@ print("Uma mensagem personalizada")
 #imprimir uma mensagem personalizada com variáveis dentro dela usando f-string
 print(f"a média do aluno é {media} e o status de aprovação é {status}")
 
-#entrada de dados e casting
-umaVariavel = int(input("Digite um numero "))
+#entrada de dados
+umaVariavel = input("Digite um numero ")
 
-#faz uma operação com a variável e imprime o resultado
-novaVariavel = umaVariavel + 10
-print(novaVariavel)
+#casting
+outraVariavel = int(input("Digite um numero "))
